@@ -1,1 +1,1 @@
-"# Tool install setup script for new boxes"
+# Tool install setup script for new boxes

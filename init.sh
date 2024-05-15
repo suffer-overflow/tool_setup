@@ -35,3 +35,6 @@ go install github.com/projectdiscovery/katana/cmd/katana@latest
 
 go install github.com/g0ldencybersec/gungnir/cmd/gungnir@latest
 go install github.com/g0ldencybersec/Caduceus/cmd/caduceus@latest
+
+go install github.com/hakluke/hakrevdns@latest
+go install -v github.com/tomnomnom/anew@latest
