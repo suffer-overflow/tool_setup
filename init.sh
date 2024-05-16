@@ -5,6 +5,8 @@ sudo apt upgrade -y
 sudo apt install -y git wget curl vim python3 python3-pip
 sudo apt install -y libpcap-dev
 sudo apt install gcc
+apt install pipx
+pipx ensurepath
 wget https://go.dev/dl/go1.22.3.linux-amd64.tar.gz
 tar -C /usr/local -xvf go1.22.3.linux-amd64.tar.gz
 sudo mv go /usr/local
@@ -20,8 +22,8 @@ source ~/.bash_profile
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 
 
-pip install waymore
-pip install xnLinkFinder
+pipx install git+https://github.com/xnl-h4ck3r/waymore.git
+pipx install git+https://github.com/xnl-h4ck3r/xnLinkFinder.git
 
 
 go install -v github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
