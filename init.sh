@@ -5,8 +5,8 @@ sudo apt upgrade -y
 sudo apt install -y git wget curl vim python3 python3-pip
 sudo apt install -y libpcap-dev
 sudo apt install gcc
-wget https://golang.org/dl/go1.21.linux-amd64.tar.gz
-sudo tar -xvf go1.21.linux-amd64.tar.gz
+wget https://go.dev/dl/go1.22.3.linux-amd64.tar.gz
+tar -C /usr/local -xvf go1.22.3.linux-amd64.tar.gz
 sudo mv go /usr/local
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
