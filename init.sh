@@ -40,3 +40,5 @@ go install github.com/g0ldencybersec/Caduceus/cmd/caduceus@latest
 
 go install github.com/hakluke/hakrevdns@latest
 go install -v github.com/tomnomnom/anew@latest
+
+go install github.com/sensepost/gowitness@latest
